@@ -9,7 +9,7 @@ class TimeCommand extends PluginTask {
     $this->start = false;
     parent::__construct($plugin);
   }
-  public function onRun($ticks) {
+  public function onRun(int $ticks) {
     if($this->start) {
       $this->plugin->runCommand($this->cmd);
     } else {
