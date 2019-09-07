@@ -5,4 +5,4 @@
 # Time: Amount of time in minutes between command executions;
 Commands:
   - Command: koth start
-    Time: 10080
+    Time: 1440
